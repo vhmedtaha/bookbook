@@ -1,0 +1,54 @@
+.bestseller{
+    width: 100%;
+    margin-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    background-color: #f0f0ea;
+}
+
+.parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+p.header{
+    text-align: start;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.seeAll{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+p.header, .seeAll{
+    width: 47.5%;
+}
+
+.seeAllbtn{
+    background-color: transparent;
+    border-color: transparent;
+    width:15%;
+    font-size: 18px;
+    font-weight: 300;
+    word-spacing: 3px;
+}
+
+.seeAllbtn:hover{
+    text-decoration: underline;
+}
+.cards{
+    width: 92%;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 25px 20px;
+}

@@ -1,0 +1,39 @@
+.failed{
+  width: 250px;
+  height: 250px;
+  margin-left: 640px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  border-radius: 100%;
+  background-color: rgb(212, 8, 8);
+  }
+
+  .failed svg{
+  fill: white;
+  width: 100%;
+  height: 100%;
+  }
+
+  .failed_p{
+    font-size: 45px;
+    width: 450px;
+    margin-left: 560px;
+  }
+
+  .failed_btn{
+    width: 320px;
+    height: 60px;
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    border-color: transparent;
+  }
+
+  .failed_btn svg{
+        width: 45px;
+        height: 45px;
+        margin-left: 20px;
+  }
+

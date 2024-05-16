@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  font-family: "Protest Revolution", sans-serif;
+  /* font-family: "Quicksand", sans-serif;
+  font-family: 'Faustina', serif;
+  font-family: "Rubik", sans-serif; */
+  font-optical-sizing: auto;
+  letter-spacing: 2px;
+  /* background-color: whitesmoke; */
+
+}
+
+.loading{
+  width: 80%;
+  height: 100px;
+  margin-left: 10%;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+

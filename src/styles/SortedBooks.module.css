@@ -1,0 +1,47 @@
+.sorted{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardsParent{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #f0f0ea;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards{
+    width: 92%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 25px 20px;
+}
+
+.paths{
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.links{
+    color: #233b52;
+    width: 9%;
+    font-size: 20px;
+    text-align: start;
+    text-decoration: none;
+    /* background-color: aquamarine; */
+}
+
+.links span{
+    margin-left: 15px;
+}
+
+

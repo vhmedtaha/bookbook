@@ -1,0 +1,59 @@
+.footer{
+    width: 100%;
+    margin-top: 100px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:0px 500px;
+    /* position: relative;
+    bottom: 0px; */
+}
+
+.footer div{
+    height: 70px;
+}
+
+.footer div:first-child{
+    margin-top: 100px;
+}
+
+.links1,.links2{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links1{
+    margin-bottom: 20px;
+}
+
+.links1 a,.links2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.links1 a:hover,.links2 a:hover{
+    text-decoration: underline;
+}
+
+.footer .socialmedia{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.socialmedia svg{
+    width: 30px;
+    fill: rgb(252, 249, 249);
+}
+
+.links2{
+    margin-bottom: 100px;
+    margin-top: 20px;
+}

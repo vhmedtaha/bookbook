@@ -1,0 +1,91 @@
+.card{
+    width: 23.9%;
+    height: 550px;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    cursor: pointer;
+    font-weight: 400;
+    color: black;
+}
+
+.image{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+}
+
+.image img{
+    width: 60%;
+    border: 5px solid #f0f0ea;
+    height: 75%;
+}
+
+/* .image span{
+    width: 200px;
+    height: 22px;
+    position: absolute;
+    right:-30px;
+    top: 60px;
+    transform: rotate(45deg);
+    background-color: rgb(232, 177, 38);
+    border-radius: 20%;
+} */
+
+
+.image .offerImg{
+    width: 18%;
+    height: 16%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 19px;
+    background-color: rgb(210, 15, 15);
+    /* background-color: rgb(232, 177, 38); */
+    color: white;
+    /* border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px; */
+    /* border-width: 0px; */
+}
+
+.details{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.details p{
+    width: 85%;
+    height: calc(60%/3);
+    font-weight: 400;
+    padding-top: 2px;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: start;
+    margin-bottom: 0px;
+}
+
+.details .offerPrice{
+    color: rgb(232, 177, 38);
+    font-size: 22px;
+}
+
+.offerPrice span{
+    text-decoration: line-through;
+    margin-right: 12px;
+    color: black;
+}
+
+
+
+

@@ -1,0 +1,217 @@
+.cardDetails{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bd_p{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#f0f0ea ;
+    }
+
+.bd_i{
+    width: 25%;
+    height: 650px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 15px 0px;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+
+.bd_i img{
+    width: 90%;
+    height: 100%;
+    border-radius: 25px;
+    border: 10px solid #f0f0ea;
+}
+
+.bd{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    /* padding: 10px 0px; */
+}  /* bd  book details mean right side*/
+
+.bh{
+    width: 90%;
+    height: 100px;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 80px;
+}  /* bh  book head mean right side*/
+
+.bh_h {
+    width: 80%;
+    text-align: start;
+    margin-top: 0px;
+}
+
+.dpc{
+    width: 90%;
+    height: 120px;
+    margin-left: 5%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 80px;
+}
+
+.price{
+   width: 90%;
+   font-size: 30px;
+   text-align: start;
+}
+
+.bdbtns{
+    width: 25%;
+    background-color: black;
+    color: rgb(252, 249, 249);
+    border-radius: 30px;
+    border-color: transparent;
+    height: 50px;
+    font-size: 20px;
+}
+
+.favoritebtn{
+    width: 9%;
+    margin-left: 6%;
+    border-radius: 10px;
+    border-color: transparent;
+    height: 50px;
+    font-size: 20px;
+}
+
+.favoritebtn svg{
+    width: 100%;
+    height: 100%;
+    /* fill: white; */
+}
+
+.sd{
+    margin-top: 60px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sd1{
+    width: 40%;
+}
+
+.sd2{
+    width: 30%;
+}
+
+.sd3{
+    width: 24%;
+}
+
+
+.smallDetials{
+    width: 100%;
+    display: flex;
+}
+
+.smallDetials .changedPart{
+    text-align: start;
+    margin-left: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.smallDetials p:first-child{
+    font-weight: 600;
+}
+
+.reviews{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.rating{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.reviews p{
+    text-align: start;
+    font-size: 15px;
+    width: 90%;
+}
+
+.showAllbtn{
+    background-color: transparent;
+    text-decoration: underline;
+    border-color: transparent;
+    text-align: start;
+    width: 20%;
+    color:#233b52;
+}
+
+.summaryContainer{
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.summary{
+    width: 71%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.default_p{
+    width: 85%;
+    height: 24px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    margin-left: 7.5%;
+    text-align: start;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.showAll_p{
+    height: auto;
+    width: 85%;
+    margin-left: 7.5%;
+    text-align: start;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.summary button,h2{
+    margin-left: 7.5%;
+}
+
+.summary button{
+    margin-top: 10px;
+}
+
+
+

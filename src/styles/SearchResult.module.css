@@ -1,0 +1,17 @@
+.searchContainer{
+    width: 100%;
+    margin-top: 80px;
+    background-color:#f0f0ea;
+    display: flex;
+    justify-content: center;
+
+}
+
+.searchCards{
+    width: 95%;
+    margin: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 35px;
+}

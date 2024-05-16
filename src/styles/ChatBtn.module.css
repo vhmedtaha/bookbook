@@ -1,0 +1,35 @@
+.chatbtn{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 20px 15px rgb(39, 39, 39);
+    border-width: 0px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    z-index: 1000;
+    animation-name: chatbtn;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .chatbtn a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+  @keyframes chatbtn {
+    100%{
+        transform: scale(120%);
+    }
+  }
+
+ .hideChatBtn{
+    display: none;
+  }

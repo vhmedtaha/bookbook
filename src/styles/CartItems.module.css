@@ -1,0 +1,89 @@
+.orderDetails {
+  /* represents each cart element with cart and payment divs*/
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.orderDetails .cart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  background-color: #f0f0ea;
+}
+
+.cartDetails .des {
+  width: 100%;
+  height: 60px;
+  text-align: start;
+  font-size: 20px;
+  padding-left: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cart .cartImg {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid black;
+}
+.cartImg img {
+  width: 74%;
+  height: 92%;
+  border: 5px solid black;
+}
+
+.cart .cartDetails {
+  width: 60%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  position: relative;
+}
+
+.cartDetails .h4,
+.h5,
+.h6 {
+  width: 100%;
+  text-align: start;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.cartDetails .h6 span {
+  color: green;
+  font-size: 25px;
+}
+
+.delcart {
+  background-color: transparent;
+  border-color: transparent;
+  height: 40px;
+  width: 10%;
+  border-radius: 4px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.delcart svg {
+  width: 25px;
+  height: 25px;
+  transition: all 0.5s;
+  padding: 5px;
+  box-sizing: content-box;
+  border-radius: 8px;
+}
+
+.delcart svg:hover {
+  background-color: red;
+  fill: white;
+}

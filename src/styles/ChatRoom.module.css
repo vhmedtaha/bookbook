@@ -1,0 +1,111 @@
+.chatroom{
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+}
+
+.chatroom header{
+  width: 35%;
+  height: 80px;
+  margin-left: 32.5%;
+  margin-top: 1px;
+  /* background-color: black; */
+  display: flex;
+  align-items: flex-end;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+header p{
+  height: 50%;
+  width: 100%;
+  font-size: 30px;
+  color: black;
+}
+
+.parentMsg{
+  width: 60%;
+  margin-top: 80px;
+  margin-left: 20%;
+  /* padding-bottom: 50px; */
+margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 0px;
+}
+
+
+.parentMsg .userMSG{
+  background-color: black;
+  width: 40%;
+  min-height: 50px;
+  color: whitesmoke;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-right: 50%;
+  margin-left: 5%;
+  text-align: start;
+  padding-left: 9px;
+  padding-top: 9px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parentMsg .bootMSG{
+  background-color: rgb(231, 229, 229);
+  width: 40%;
+  min-height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: start;
+  padding-left: 9px;
+  padding-top: 9px;
+  margin-left: 50%;
+  margin-right: 5%;
+}
+
+.typingbar{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.typingbar input{
+  height: 95%;
+  width: 70%;
+  /* font-size: 20px; */
+  background-color: transparent;
+  border-color: transparent;
+  color: whitesmoke;
+  outline: 1px solid transparent;
+}
+
+.typingbar button{
+  height: 95%;
+  width: 4%;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.emoji{
+  margin-right: 20px;
+}
+
+.sendsign{
+  margin-left: 20px;
+}
+
+.typingbar button:hover{
+  background-color: rgb(41, 39, 39);
+}
+
+.typingbar svg{
+  fill: whitesmoke;
+}

@@ -1,0 +1,95 @@
+.topbooks{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color:#f0f0ea;
+    gap: 2%;
+}
+
+.num{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    background-color:#f0f0ea;
+    border: 3px solid black;
+    position: absolute;
+    bottom: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstcard{
+    width: 26%;
+    height: 400px;
+    background-color: black;
+    /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; */
+    background: radial-gradient(circle at -8.9% 51.2%, #e4e490 0%, #e4e490 15.9%, #f0f0ea 15.9%, #f0f0ea 24.4%, rgb(18, 18, 18) 24.5%, rgb(18, 18, 18) 66%);
+    margin-bottom: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    margin: 60px 0px;
+    margin-left: 20px;
+}
+
+.firstcard button{
+width: 200px;
+height: 50px;
+font-weight: 600;
+background-color: transparent;
+border-radius: 30px;
+border: 3px solid #f0f0ea;
+color: #f0f0ea;
+}
+
+.firstcard button svg{
+    margin-left: 5px;
+    fill:#f0f0ea ;
+}
+
+.firstcard h1{
+    width: 250px;
+    color: #f0f0ea;
+}
+
+.allCards{
+    display: flex;
+    width: 65%;
+    gap: 30px;
+    margin: 60px 0px;
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
+}
+
+.cards{
+    width: 33%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.image{
+    width: 96%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    border-radius: 6px;
+    border: 6px solid #f0f0ea;
+    width: 90%;
+    height: 90%;
+}
+
